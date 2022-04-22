@@ -51,8 +51,81 @@ a {
 }
 .button:hover {
   color: rgb(0, 0, 0);
-  background-color: rgb(0, 0, 0);
 	border-color: #000000;
+}
+.container {
+  text-align: center;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+button {
+  position: relative;
+  height: 50px;
+  width: 240px;
+  border: 0;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: 0.2em;
+  overflow: hidden;
+  z-index: -2;
+  color: #fff;
+}
+
+
+
+.fill-one {
+  position: absolute;
+  background-image: linear-gradient(to right, #E040FB, #8899fa);
+  height: 70px;
+  width: 420px;
+  border-radius: 5px;
+  margin: -40px 0 0 -140px;
+  z-index: -1;
+  transition: all 0.4s ease;
+}
+
+.container-one:hover .fill-one {
+  -webkit-transform: translateX(100px);
+  -moz-transform: translateX(100px);
+  transform: translateX(100px);
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .pad{
   padding: 2rem;
@@ -118,7 +191,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 75px;
+  height: 55px;
   padding: 1rem;
   color: black;
   background: white;
@@ -137,6 +210,42 @@ header {
   position: relative;
   top: 650px;
 }
+.islet{
+  width: 100%;
+  height: 700px;
+  background-image: url(https://cdn.discordapp.com/attachments/964724323707408475/967093227180159036/202_20220423010258.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.muring{
+  width: auto;
+  height: 700px;
+  background-image: url(https://cdn.discordapp.com/attachments/964724323707408475/967097636962324520/202_20220423012032.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.muc{
+  width: 100%;
+  height: 700px;
+  background-image: url(https://cdn.discordapp.com/attachments/964724323707408475/967098894636961812/202_20220423012536.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xtitle{
+  float: right;
+  top: 100px;
+  right: 700px;
+}
+.xtisub{
+  top: 100px;
+}
+.isletg{
+  margin-top: 120px;
+  margin-left: 50px;
+  max-width: 30%;
+  height: auto;
+  content:url("https://cdn.discordapp.com/attachments/964724323707408475/967093227180159036/202_20220423010258.png");
+}
 .subtitle{
   position: relative;
   top: 1px;
@@ -151,6 +260,32 @@ header {
   font-family: "Big Shoulders Stencil";
   font-family: 'Do Hyeon', sans-serif;
   font-size: 20px;
+}
+.jid{
+  position: relative;
+  top: 200px;
+  font-family: "Big Shoulders Stencil";
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 15px;
+}
+.it{
+  position: relative;
+  font-family: ‘SUIT’, sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+.it2{
+  position: relative;
+  font-family: ‘SUIT’, sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+.xtitle2{
+  float: right;
+  top: 300px;
+  right: 0px;
 }
 .textn{
   position: relative;
@@ -213,7 +348,6 @@ header {
   color: #000;
   text-decoration: none;
 }
-
 
 
 
