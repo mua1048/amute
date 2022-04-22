@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css");
+
+* {font-family: ‘SUIT’, sans-serif;}
+
+body {
+  background-color: #fff;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+   display: none; 
+}
+a {
+  text-decoration-line: none;
+  color: inherit;
+}
+.title {
+  position: relative;
+  top: 220px;
+  font-family: ‘SUIT’, sans-serif;
+  font-weight: 900;
+  background: linear-gradient(to right,rgb(176, 64, 204) 0%,
+  rgba(148, 187, 233, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+}
+.logoimg{
+  max-width: 15%;
+  height: auto;
+  content:url("https://cdn.discordapp.com/attachments/964724323707408475/966251752989007962/197_20220420171846.png");
+}
+.button {
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  background: linear-gradient(to right,rgb(176, 64, 204) 0%,
+  rgba(148, 187, 233, 1) 100%);
+  height:40px;
+  width:175px;
+  line-height:40px;
+  border-radius: 50px;
+  box-shadow: none;
+}
+.button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+	border-color: #000000;
+}
+.pad{
+  padding: 2rem;
+}
+header {
+  position: fixed ;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  padding: 2rem;
+  color: black;
+  background-color: rgba( 255, 255, 255, 0 );
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-transition-duration:0.4s;
+  -webkit-transition-timing-function:ease;
+  transition-duration:0.4s;
+  transition-timing-function:ease;
+}
+.down {
+  background-color:rgba(255, 255, 255, 1);
+  -webkit-transition-duration:0.4s;
+  -webkit-transition-timing-function:ease;
+  transition-duration:0.4s;
+  transition-timing-function:ease;
+}
+@media (max-width: 1000px) {
+  .title{
+    position: relative;
+    top: 220px;
+    font-family: ‘SUIT’, sans-serif;
+    font-weight: 900;
+    background: linear-gradient(to right,rgb(176, 64, 204) 0%,
+    rgba(148, 187, 233, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+  }
+  .button {
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    background: linear-gradient(to right,rgb(176, 64, 204) 0%,
+    rgba(148, 187, 233, 1) 100%);
+    height:40px;
+    width:125px;
+    line-height:40px;
+    border-radius: 50px;
+    box-shadow: none;
+  }
+}
+@media (max-width: 800px) {
+  .logoimg{
+    max-width: 30%;
+    height: auto;
+    content:url("https://cdn.discordapp.com/attachments/964724323707408475/965972972777136228/94AEFE7E-C060-4277-B65D-3B0D8463F455.png");
+  }
+header {
+  position: absolute ;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  padding: 1rem;
+  color: black;
+  background: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+.sec {
+  width: 100%;
+  height: 1400px;
+  background: #000;
+}
+.slo{
+  position: relative;
+  top: 650px;
+}
+.subtitle{
+  position: relative;
+  top: 1px;
+  font-family: "Big Shoulders Stencil";
+  font-family: 'Do Hyeon', sans-serif;
+  color: black;
+  font-size: 30px;
+}
+.learnmore{
+  position: relative;
+  top: 200px;
+  font-family: "Big Shoulders Stencil";
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px;
+}
+.textn{
+  position: relative;
+  font-family: ‘SUIT’, sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 100px;
+}
+.text2{
+  position: relative;
+  font-family: ‘SUIT’, sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+}
+.text3{
+  position: relative;
+  font-family: ‘SUIT’, sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+}
+.ft{
+  position: relative;
+  font-family: ‘SUIT’, sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+.mar3{
+  top:130px;
+}
+.mar2{
+  top:150px;
+}
+.mar1{
+  top: 200px;
+}
+.mar4{
+  top: 600px;
+}
+.ui {
+  font-family: "Big Shoulders Stencil";
+  position: fixed;
+  top: 35px;
+  right: 100px;
+}
+.ui ul {
+  margin: 0px;
+  padding: 0px;
+}
+.ui ul a {
+  float: left;
+}
+.ui ul a {
+  font-family: "Big Shoulders Stencil";
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
