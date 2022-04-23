@@ -329,10 +329,7 @@ header {
     top: 220px;
     font-family: ‘SUIT’, sans-serif;
     font-weight: 900;
-    background: linear-gradient(to right,rgb(176, 64, 204) 0%,
-    rgba(148, 187, 233, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
     font-size: 40px;
   }
   .button {
