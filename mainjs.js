@@ -1,15 +1,15 @@
 $(function(){
-  var $header = $('header'); //헤더를 변수에 넣기
-  var $page = $('.page-start'); //색상이 변할 부분
+  var $header = $('header');
+  var $page = $('.page-start');
   var $window = $(window);
-  var pageOffsetTop = $page.offset().top;//색상 변할 부분의 top값 구하기
+  var pageOffsetTop = $page.offset().top;
   
-  $window.resize(function(){ //반응형을 대비하여 리사이즈시 top값을 다시 계산
+  $window.resize(function(){ 
     pageOffsetTop = $page.offset().top;
   });
   
-  $window.on('scroll', function(){ //스크롤시
+  $window.on('scroll', function(){ 
     var scrolled = $window.scrollTop() >= pageOffsetTop; //스크롤된 상태; true or false
-    $header.toggleClass('down', scrolled); //클래스 토글
+    $header.toggleClass('down', scrolled); 
   });
 });
